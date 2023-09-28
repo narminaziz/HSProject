@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My portfolio</title>
+        <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet"> 
+        <link href="styles.css" rel="stylesheet">
+        <script src="behavior.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Narmin's Tech Blog</title>
+    </head>
+    
+    <body class="works_on_smartphone">
+        <header>
+            <h3>Heading 3</h3> 
+            <div class="right">
+                <a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #LoveTwitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <article>
+                <h2>Tech Blog</h2>
+                <p><a href="http://15.237.83.130/tweets.html">Link to tweet page</a></p>
+                <p><a href="https://en.wikipedia.org/wiki/Assembly_language"><img src="https://apply.holbertonschool.com/holberton-logo.png"></a></p>
+                <img class="small" id="smart_thumbnail" src="https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/0x0.jpg?format=jpg&width=1200">  
+            </article>
+            <aside>
+                <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                    this.page.url = window.location.href; 
+                    this.page.identifier = 'unique_identifier_for_this_page'; 
+                    };
+
+                    (function() { 
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://tech-enthusiast.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+            </aside>
+        </main>
+        <footer>
+            <p>Made by Narmin Azizova for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>.</p>
+        </footer>
+    </body>
+</html>
